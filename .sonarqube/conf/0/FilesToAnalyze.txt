@@ -1,0 +1,13 @@
+﻿c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\Controllers\SampleController.cs
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\Program.cs
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\SampleModel.cs
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\Startup.cs
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\obj\Debug\net5.0\.NETCoreApp,Version=v5.0.AssemblyAttributes.cs
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\obj\Debug\net5.0\SampleApp.AssemblyInfo.cs
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\obj\Debug\net5.0\SampleApp.MvcApplicationPartsAssemblyInfo.cs
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\appsettings.Development.json
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\appsettings.json
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\.gitignore
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\LICENSE
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\README.md
+c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\Properties\launchSettings.json
