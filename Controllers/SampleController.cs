@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Security.Cryptography;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -19,11 +20,12 @@ namespace App.Controllers
         [HttpGet("/SecurityIssueOnUseRandom")]
         public IEnumerable<SampleModel> GetSecurityIssueOnUseRandom()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new SampleModel
+			var randomGenerator = RandomNumberGenerator.GetInt32(0, 1000);
+			Console.WriteLine(randomGenerator);
+			return Enumerable.Range(1, 5).Select(index => new SampleModel
             {
                 Date = DateTime.Now.AddDays(index),
-                Summary = Summaries[rng.Next(Summaries.Length)]
+                Summary = Summaries[randomGenerator]
             })
             .ToArray();
         }

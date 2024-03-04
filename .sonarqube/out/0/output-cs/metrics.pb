@@ -5,6 +5,6 @@
 ]
 8c:\Dev\projects\Inteli\m9\Ponderada-SonarQube\Program.cs 8r	
 Ç
-ç
-Mc:\Dev\projects\Inteli\m9\Ponderada-SonarQube\Controllers\SampleController.cs 8r*	
- !"#$%&')*+,-./Ç$&,
+ê
+Mc:\Dev\projects\Inteli\m9\Ponderada-SonarQube\Controllers\SampleController.cs 8r,	
+!"#$%&'()+,-./01Ç&(.
