@@ -19,3 +19,6 @@ Resultado após correções:
 ![image](https://github.com/FelipeSaadi/Ponderada-SonarQube/assets/54749257/5824bdef-9512-47bd-bc7a-51d2e5e33f26)
 
 Com isso reduzimos os principais problemas encontrados pelo SonarQube, porém ainda restou um security hotspots que precisará ser tratado.
+
+Resultado após correção do uso de random number:
+![image](https://github.com/FelipeSaadi/Ponderada-SonarQube/assets/54749257/d144cc29-4b32-4f90-a759-5c068a800c76)
