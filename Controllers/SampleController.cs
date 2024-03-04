@@ -16,14 +16,6 @@ namespace App.Controllers
             "Freezing", "Bracing", "Chilly", "Cool", "Mild", "Warm", "Balmy", "Hot", "Sweltering", "Scorching"
         };
 
-        public int publicVariable;
-        private readonly ILogger<SampleController> _logger;
-
-        public SampleController(ILogger<SampleController> logger)
-        {
-            _logger = logger;
-        }
-
         [HttpGet("/SecurityIssueOnUseRandom")]
         public IEnumerable<SampleModel> GetSecurityIssueOnUseRandom()
         {
@@ -39,19 +31,16 @@ namespace App.Controllers
         [HttpGet("/BugOnNullPath")]
         public SampleModel GetBugOnNullPath()
         {
-            SampleModel sampleModel = null;
-            sampleModel.Date = DateTime.Now;
-            return sampleModel;
+			SampleModel sampleModel = new()
+			{
+				Date = DateTime.Now
+			};
+			return sampleModel;
         }
 
         [HttpGet("/BugOnAlwaysEvaluateToFalse")]
         public IActionResult GetBugOnAlwaysEvaluateToFalse()
         {
-            var alwaysFalse = false;
-
-            if (alwaysFalse)
-                alwaysFalse = true;
-
             return Ok();
         }
     }
